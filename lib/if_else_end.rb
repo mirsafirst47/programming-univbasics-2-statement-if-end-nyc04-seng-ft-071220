@@ -14,7 +14,7 @@ else
   puts "Odd!"
 end
 
-# more advanced without using the current_time variable
+# Third solution more advanced without using the current_time variable
 if Time.now.to_i % 2 == 0
   puts "Even!"
 else
