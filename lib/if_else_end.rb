@@ -16,7 +16,7 @@ end
 
 # more advanced without using the current_time variable
 if Time.now.to_i % 2 == 0
-  puts "Even!" ß
-else 
+  puts "Even!"
+else
   puts "Odd!"
 end
