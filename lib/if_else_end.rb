@@ -13,3 +13,10 @@ if current_time % 2 == 0
 else
   puts "Odd!"
 end
+
+# more advanced without using the current_time variable
+if Time.now.to_i % 2 == 0
+  puts "Even!" ß
+else 
+  puts "Odd!"
+end
